@@ -21,14 +21,13 @@ public class Collection_ArrayList {
 		
 		System.out.println("List using for loop ");
 		System.out.println("");
-		for(int x=0;x < colorList.size();x++) // x++ means x=x+1
+		for(int x=0;x<colorList.size();x++)
 			System.out.println(colorList.get(x));
 		
 	// using Iterator
 		System.out.println("");
 		System.out.println("List using Iterator ");
 		System.out.println("");
-		
 		Iterator iterator=colorList.iterator();
 		
 		while(iterator.hasNext())
