@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Collection_ArrayList.java&apos; to &apos;Collection_practice/src/com.collection&apos;&#x0D;&#x0A;- Original project: &apos;Collection_practice&apos;&#x0D;&#x0A;- Destination element: &apos;Collection_practice/src/com.collection&apos;&#x0D;&#x0A;- Original element: &apos;Collection_ArrayList.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.collection" element1="/src&lt;{Collection_ArrayList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1550020643113" units="1" version="1.0"/>
+</session>
