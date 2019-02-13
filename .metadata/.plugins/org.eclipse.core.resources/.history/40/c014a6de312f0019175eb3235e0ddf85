@@ -1,0 +1,37 @@
+package com.collection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Collection_ArrayList {
+	public static void main(String ar[])
+	{
+		ArrayList arrayList=new ArrayList();
+		int i=0;
+		arrayList.add("Hello World -"+(i++));
+		arrayList.add("Hello World -"+(i++));
+		arrayList.add("Hello World -"+(i++));
+		arrayList.add("Hello World -"+(i++));
+		arrayList.add("Hello World -"+(i++));
+		
+	// using for loop
+		
+		for(int x=0;x<arrayList.size();x++)
+			System.out.println(arrayList.get(x));
+		
+	// using Iterator
+		
+		Iterator iterator=arrayList.iterator();
+		
+		while(iterator.hasNext())
+		{
+			System.out.println(iterator.next());
+		}
+		
+		
+		
+		
+		
+	}
+
+}

@@ -20,20 +20,22 @@ public class Collection_ArrayList {
 	// using for loop
 		
 		System.out.println("List using for loop ");
-		System.out.println("");
 		for(int x=0;x<colorList.size();x++)
 			System.out.println(colorList.get(x));
 		
 	// using Iterator
 		System.out.println("");
 		System.out.println("List using Iterator ");
-		System.out.println("");
 		Iterator iterator=colorList.iterator();
 		
 		while(iterator.hasNext())
 		{
 			System.out.println(iterator.next());
 		}
+		
+		
+		
+		
 		
 	}
 
