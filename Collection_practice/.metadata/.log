@@ -1,0 +1,16 @@
+!SESSION 2019-02-14 23:12:42.620 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2019-02-14 23:16:08.473
+!MESSAGE DDMS files not found: C:\Android\sdk\tools\hprof-conv.exe C:\Android\sdk\tools\traceview.bat 
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2019-02-14 23:16:08.493
+!MESSAGE DDMS files not found: C:\Android\sdk\tools\hprof-conv.exe C:\Android\sdk\tools\traceview.bat 
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2019-02-14 23:16:32.188
+!MESSAGE DDMS files not found: C:\Users\Pushkar\android-sdks\platform-tools\adb.exe C:\Users\Pushkar\android-sdks\tools\hprof-conv.exe C:\Users\Pushkar\android-sdks\tools\traceview.bat 

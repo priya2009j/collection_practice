@@ -1,0 +1,42 @@
+package com.collection;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class Collection_Set {
+	public static void main(String ar[])
+	{
+		
+        Set<String> hash_Set = new HashSet<String>(); 
+        hash_Set.add("Geeks"); 
+        hash_Set.add("For"); 
+        hash_Set.add("Geeks"); 
+        hash_Set.add("Example"); 
+        hash_Set.add("Set"); 
+        System.out.print("Set output without the duplicates"); 
+  
+        System.out.println(hash_Set); 
+		
+	// using for loop
+		
+		System.out.println("List using for loop ");
+		System.out.println("");
+		for(int x=0;x < hash_Set.size();x++) // x++ means x=x+1
+			System.out.println(hash_Set.get(x));
+		
+	// using Iterator
+		System.out.println("");
+		System.out.println("List using Iterator ");
+		System.out.println("");
+		
+		Iterator iterator=hash_Set.iterator();
+		
+		while(iterator.hasNext())
+		{
+			System.out.println(iterator.next());
+		}
+		
+	}
+}

@@ -1,41 +1,33 @@
 package com.collection;
 
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class Collection_ArrayList {
-	public static void main(String ar[])
-	{
-		ArrayList colorList=new ArrayList();
-		
-		
-		colorList.add("color: red , Value :#f00");
-		colorList.add("color: green , Value :#0f0");
-		colorList.add("color: blue , Value :#00f");
-		colorList.add("color: cyan , Value :#0ff");
-		colorList.add("color: magenta , Value :#f0f");
-		colorList.add("color: yellow , Value :#ff0");
-		colorList.add("color: black , Value :#000");
-		
-	// using for loop
-		
-		System.out.println("List using for loop ");
-		System.out.println("");
-		for(int x=0;x < colorList.size();x++) // x++ means x=x+1
-			System.out.println(colorList.get(x));
-		
-	// using Iterator
-		System.out.println("");
-		System.out.println("List using Iterator ");
-		System.out.println("");
-		
-		Iterator iterator=colorList.iterator();
-		
-		while(iterator.hasNext())
-		{
-			System.out.println(iterator.next());
-		}
-		
-	}
+	public static void main(String[] args) 
+            throws IOException 
+{ 
+// size of ArrayList 
+int n = 5; 
 
+//declaring ArrayList with initial size n 
+ArrayList<Integer> arrli = new ArrayList<Integer>(n); 
+
+// Appending the new element at the end of the list 
+for (int i=1; i<=n; i++) 
+ arrli.add(i); 
+
+// Printing elements 
+System.out.println(arrli); 
+
+// Remove element at index 3 
+arrli.remove(3); 
+
+// Displaying ArrayList after deletion 
+System.out.println(arrli); 
+
+// Printing elements one by one 
+for (int i=0; i<arrli.size(); i++) 
+ System.out.print(arrli.get(i)+" "); 
+} 
 }
